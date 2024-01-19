@@ -1,0 +1,8 @@
+.gambar-2{
+  display: flex;
+  background-image: url("Dashboard-SI-14-1400x739.jpg");
+  height: 500px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
