@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS-Individual-Assignment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-wraper">
+        <div class="login-form">
+          <img src="/assets/Logo.png" alt="Logo" class="login-logo">
+          <div class="welcome">
+            Nice to see you again
+          </div>
+          <div class="form-login-wraper">
+            <form action class>
+              <label for="email-input">
+                Login
+              </label>
+              <input type="text" value="Email or phone number" id="email-input">
+              <label for="email-input">
+                Password
+              </label>
+              <input type="text" value="Enter Password" id="password-input">
+              <div class="link-wraper">
+                <a class="forgot-password" href="#">
+                  Forgot password?
+                </a>
 
-</body>
+              </div>
+              <button class="signin-button">Sign in</button>
+              <button class="googlein-button">
+                <img src="/assets/Other-Pay-Method.png" alt="googlein-logo">
+                <div class="googlein-option">
+                  Or sign in with Google
+                </div>
+              </button>
+            </form>
+            <div class="signup-button">
+              Dont have an account? <a href="#">Sign up now</a> 
+            </div>
+          </div>
+        </div>
+        <div class="bottom-panel">
+          &#169; Perfect Login 2021
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
